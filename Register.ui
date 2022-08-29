@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RegisterWindow</class>
+ <widget class="QMainWindow" name="RegisterWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>794</width>
+    <height>601</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>-20</x>
+      <y>0</y>
+      <width>821</width>
+      <height>561</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#0077E2;
+background-image: url(:/image_widget/images/bgdimage6.jpg);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_CAccount">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>70</y>
+      <width>221</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 18pt bold;background-color:white;border-radius:10px; color:black;</string>
+    </property>
+    <property name="text">
+     <string>Create Account</string>
+    </property>
+    <property name="margin">
+     <number>0</number>
+    </property>
+    <property name="indent">
+     <number>20</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_Name">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>130</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 15pt bold;color:black;</string>
+    </property>
+    <property name="text">
+     <string>Name :</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="nameAEdit">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>150</y>
+      <width>261</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 10px; background-color:white;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="emailEdit">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>220</y>
+      <width>261</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 10px; background-color: white;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="passwordEdit">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>290</y>
+      <width>261</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: white;border-radius:10px;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="CpasswordEdit">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>370</y>
+      <width>261</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:white;border-radius:10px;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="registerBtn">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>510</y>
+      <width>321</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:10px; font:14pt bold;background-color:#0077E2;color:black;</string>
+    </property>
+    <property name="text">
+     <string>Register</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_Email">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>200</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 15pt bold; color:black;</string>
+    </property>
+    <property name="text">
+     <string>Email :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_Password">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>270</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:black; font:15pt bold;</string>
+    </property>
+    <property name="text">
+     <string>Password :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_CPassword">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>340</y>
+      <width>201</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font:15pt bold; color:black;</string>
+    </property>
+    <property name="text">
+     <string>Confirm Password :</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>60</y>
+      <width>20</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>20</y>
+      <width>801</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:black;background-color:white;font: 18pt bold;</string>
+    </property>
+    <property name="text">
+     <string>DRUG INVENTORY MANAGEMENT SYSTEM</string>
+    </property>
+    <property name="indent">
+     <number>130</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>60</y>
+      <width>381</width>
+      <height>491</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image:url(:/image_widget/images/bgdimage2.jpeg);border-radius:20px; background-color:white; repeat: none;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="statuslbl">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>410</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font:15pt bold; color:black;</string>
+    </property>
+    <property name="text">
+     <string>Status :</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="statusEdit">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>440</y>
+      <width>261</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:white;border-radius:10px;</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="images.qrc"/>
+ </resources>
+ <connections/>
+</ui>

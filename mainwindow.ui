@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>homepage</class>
+ <widget class="QMainWindow" name="homepage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1031</width>
+    <height>657</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="toolbar" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>30</y>
+      <width>211</width>
+      <height>591</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255,255,255);</string>
+    </property>
+    <widget class="QWidget" name="verticalLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>190</y>
+       <width>221</width>
+       <height>421</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QToolButton" name="toolButton">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>5</width>
+          <height>5</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: black; font: bold 12pt;</string>
+        </property>
+        <property name="text">
+         <string>Home</string>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="arrowType">
+         <enum>Qt::NoArrow</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QToolButton" name="supplierbtn">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>5</width>
+          <height>5</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0,0,0); font: bold 12pt&quot;Cantarell&quot;;border:none;</string>
+        </property>
+        <property name="text">
+         <string>Supplier</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QToolButton" name="inventorybtn">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: black;
+font: bold 12pt &quot;Cantarell&quot;;border: none;
+</string>
+        </property>
+        <property name="text">
+         <string>Inventory</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QToolButton" name="staffbtn">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>5</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0); font: bold 12pt &quot;Cantarell&quot;;border: none;</string>
+        </property>
+        <property name="text">
+         <string>Staff</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QToolButton" name="expensebtn">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0); font: bold 12pt &quot;Cantarell&quot;;border: none;
+
+</string>
+        </property>
+        <property name="text">
+         <string>Expenses</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QToolButton" name="salesbtn">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0);
+font: bold 12pt &quot;Cantarell&quot;;border: none;</string>
+        </property>
+        <property name="text">
+         <string>Sales</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QToolButton" name="reportbtn">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0); font: bold 12pt &quot;Cantarell&quot;;border: none;</string>
+        </property>
+        <property name="text">
+         <string>Reports</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QToolButton" name="settingsbtn">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0); font: bold 12pt &quot;Cantarell&quot;;border: none;</string>
+        </property>
+        <property name="text">
+         <string>Settings</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QToolButton" name="logoutbtn">
+        <property name="styleSheet">
+         <string notr="true">color: black; font: bold 12pt;border:none;</string>
+        </property>
+        <property name="text">
+         <string>Logout</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="image_widget" native="true">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>191</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/image_widget/images/bgdimage2.jpeg);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>60</y>
+       <width>66</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>0</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border: none; color: black;
+background-color: rgb(246, 211, 45);</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Ware house worker</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Supplier</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Customer</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Administrator</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1200</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+color: black; font: bold 15pt;</string>
+    </property>
+    <property name="text">
+     <string>                                                DRUG INVENTORY MANAGEMENT  </string>
+    </property>
+    <property name="indent">
+     <number>100</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>30</y>
+      <width>821</width>
+      <height>591</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/image_widget/images/bgdimage6.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>90</y>
+      <width>66</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:white;</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>60</y>
+      <width>191</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 20px;background-color: white; font: red;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>250</y>
+      <width>191</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 20px;background-color: white; font: red;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>60</y>
+      <width>191</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 20px;background-color: white; font: red;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>430</y>
+      <width>191</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:20px;background-color: white; font: red;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>440</y>
+      <width>191</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 20px;background-color: white; font: red;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>60</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: red;</string>
+    </property>
+    <property name="text">
+     <string>Suppliers</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>260</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: red;</string>
+    </property>
+    <property name="text">
+     <string>Inventory</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>440</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: red;</string>
+    </property>
+    <property name="text">
+     <string>Expenses</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>80</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: red;</string>
+    </property>
+    <property name="text">
+     <string>Destinations</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>460</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: red;</string>
+    </property>
+    <property name="text">
+     <string>Contacts</string>
+    </property>
+   </widget>
+   <zorder>label_3</zorder>
+   <zorder>toolbar</zorder>
+   <zorder>comboBox</zorder>
+   <zorder>label</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label_6</zorder>
+   <zorder>label_7</zorder>
+   <zorder>label_8</zorder>
+   <zorder>label_9</zorder>
+   <zorder>label_10</zorder>
+   <zorder>label_11</zorder>
+   <zorder>label_12</zorder>
+   <zorder>label_13</zorder>
+   <zorder>label_14</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="images.qrc"/>
+ </resources>
+ <connections/>
+</ui>

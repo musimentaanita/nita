@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="image_widget">
+    <file>images.qrc</file>
+    <file>images/bgdimage7.jpeg</file>
+    <file>images/bgdimage6.jpg</file>
+    <file>images/bgdimage2.jpeg</file>
+    <file>images/bgdimage3.jpeg</file>
+    <file>images/bgdimage4.jpeg</file>
+    <file>images/bgdimage5.jpeg</file>
+    <file>images/bgdimage1.jpeg</file>
+  </qresource>
+</RCC>
